@@ -9,7 +9,7 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v4
 
-      - name: Configure build for x64
+      - name: Configure my build for x64
         uses: ilammy/msvc-dev-cmd@v1
         with:
           arch: x64
